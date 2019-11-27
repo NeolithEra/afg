@@ -12,7 +12,7 @@ setup(
     keywords = ['alexa', 'flask-ask', 'fsm'],
     install_requires=[
         'flask-ask',
-        'PyYAML',
+        'PyYAML==3.12',
         'Fysom',
         'wrapt'
     ],
